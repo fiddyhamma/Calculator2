@@ -1,7 +1,4 @@
 
-@media only screen and (min-width:600px){
-    /* smaller devices */
-}
 body{
     margin: auto;
     text-align: center;
@@ -26,4 +23,28 @@ button:hover{
 }
 .container{
     margin-top: 50px;
+}
+
+@media only screen and (max-width:800px){
+    body{
+        margin: auto;
+        width: 600px;
+        height: 100vh;
+    }
+    .main{
+        margin: auto;
+        width: 400px;
+        height: 200px;
+        border: 0.5px solid black;
+    }
+    button{
+        width: 70px;
+        height: 20px;
+        border: 5px;
+        background-color: blue;
+        color: white;
+    }
+    .container{
+        margin-top: 20px;
+    }
 }

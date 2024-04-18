@@ -1,3 +1,5 @@
+
+
 function total() {
     const first = parseFloat(document.getElementById("firstNumber").value);
     const second = parseFloat(document.getElementById("secondNumber").value);
