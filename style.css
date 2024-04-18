@@ -28,23 +28,24 @@ button:hover{
 @media only screen and (max-width:800px){
     body{
         margin: auto;
-        width: 600px;
+        width: 400px;
         height: 100vh;
     }
     .main{
         margin: auto;
-        width: 400px;
+        width: 350px;
         height: 200px;
         border: 0.5px solid black;
     }
     button{
-        width: 70px;
+        width: 60px;
         height: 20px;
         border: 5px;
         background-color: blue;
         color: white;
     }
     .container{
-        margin-top: 20px;
+        margin-top: 10px;
+        justify-content: space-around;
     }
 }
